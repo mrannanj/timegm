@@ -1,0 +1,7 @@
+- separate test and implementation file
+- test more negative values
+  - before 1900 also
+- tests for errors
+  - that struct tm is not modified on error
+- missing support for different definitions of time_t
+- cleanup makefile
